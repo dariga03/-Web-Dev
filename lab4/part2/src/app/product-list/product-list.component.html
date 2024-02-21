@@ -1,0 +1,40 @@
+<h2>Products</h2>
+
+<div *ngFor="let product of products">
+  <h3>
+    <a [href]="product.addressUrl" [title]="product.name">
+      {{ product.name }}
+    </a>
+
+  </h3>
+
+  <div class="cont-img"><img [src]="product.photoUrl"/></div>
+
+  <!--<div *ngIf="product.photoUrl">
+    <img [src]="product.photoUrl" alt="{{ product.name }}">
+    <p>photoUrl: {{ product.photoUrl }}</p>
+  </div>-->
+
+  <p *ngIf="product.price">price: {{ product.price }}</p>
+
+
+  <p *ngIf="product.description">Description: {{ product.description }}</p>
+
+  <p>Rating: {{ product.rating }}</p>
+
+  <!-- 
+    -->
+
+  <!--<button type="button" (click)="share()">Share</button>-->
+
+  <div class="buttons">
+    <a [href]='product.link'>
+      <button type="button" (click)="share()">Share</button></a>
+  </div>
+
+
+  <!-- 
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+--></div>
