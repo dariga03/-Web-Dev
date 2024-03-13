@@ -1,0 +1,46 @@
+.album-container {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-left: 5px;
+  background-color: #dc8cef;
+  border-radius: 5px;
+}
+
+.album-container h2 {
+  margin-bottom: 5px;
+  color: white;
+}
+
+.button-container {
+  margin-top: 10px;
+}
+
+.delete-button,
+.details-button {
+  padding: 5px 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.delete-button {
+  color: rgb(234, 188, 246);
+  border: none;
+}
+
+.delete-button:hover {
+  color: white;
+  background-color: #bd2130;
+}
+
+.details-button {
+  color: white;
+  border: none;
+}
+
+.details-button:hover {
+  background-color: #8b0090;
+  color: white;
+}
