@@ -1,0 +1,24 @@
+#companies {
+  text-align: center; 
+  color: #4682b4; 
+}
+
+#companies::before,
+#companies::after {
+  content: ''; 
+  display: inline-block; 
+  width: 10px; 
+  height: 10px; 
+  border-radius: 50%; 
+  background-color: #4682b4; 
+  margin: 0 5px; 
+}
+
+ul {
+  margin-top: 120px; 
+  color: #87ceeb; 
+}
+
+a {
+  color: #8394d7;
+}
